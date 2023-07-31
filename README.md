@@ -1,16 +1,55 @@
-# imen
+# ads-service-app
 
-A new Flutter project.
+# Mandatory info:
+this is our ads service app flowchart and following the implementation in DART
 
-## Getting Started
+JSON 
 
-This project is a starting point for a Flutter application.
+url 	=
+title 	=
+length	=
+stime	=
+etime	=
+id_video	=
+id_screen	=
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+OOOOO		.2				oooooooooooooooooooo       ooooooo
+OOOOO.1		.2				oooooooooooooooooooo       ooooooo
+OOOOO.1		.2				oooooooooooooooooooo       ooooooo
+OOOOO.1		.2				oooooooooooooooooooo       ooooooo
+OOOOO 		.2				oooooooooooooooooooo       ooooooo
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+screen 							   video1 (N)			video2 (N)
+
+
+APP 
+
+Refresh Button
+Video peview Button
+Aspect Ratio    Landscape Yes[X] (Full screen) / NO [X] (normal screen) -----> normal
+				|
+				|
+				--------------YES 90 degree rotation -------------
+
+	
+								should read again the json file  --> PS: read only index 0
+								json should be outside the app binary
+								 |
+ooooooooooooooooooooooooooo		 |		ooooooooooooooooooooooooooo	
+o                         o		 |		o                         o
+o                         o		 |		o                         o
+o                         o		 |		o                         o----------------------------------------------------------------> SERVER SIDE
+o                         o		 |		o                         o<----------------------------------------------------------------
+o                         o		 |		o xxxxxxxxxxxxxxxxxxxxxxx o
+o     landscape Y [X] 90° o		 |		o xxxxxxxxxxxxxxxxxxxxxxx o
+o               N [ ]     o		 |		o xxxxxxxxxxxxxxxxxxxxxxx o
+o                         o		 |		o xxxxxxxxxxxxxxxxxxxxxxx o
+o                         o		 |		o xxxxxxxxxxxxxxxxxxxxxxx o
+o                         o		 |		o xxxxxxxxxxxxxxxxxxxxxxx o
+o     refresh             o	-----|		o                         o
+o                         o				o                         o
+o     preview             o-----------> o                         o
+o                         o				o                         o
+o                         o				o                         o
+ooooooooooooooooooooooooooo				ooooooooooooooooooooooooooo
