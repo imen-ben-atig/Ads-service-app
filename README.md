@@ -1,1 +1,1 @@
-# -ads-service-app
+# ads-service-app
