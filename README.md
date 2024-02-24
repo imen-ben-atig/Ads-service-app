@@ -10,8 +10,8 @@ title 	=
 length	=
 stime	=
 etime	=
-id_video	=
-id_screen	=
+id_video=
+id_screen=
 
 
 OOOOO		.2				oooooooooooooooooooo       ooooooo
